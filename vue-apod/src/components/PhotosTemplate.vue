@@ -46,7 +46,7 @@ export default {
 
 <style scoped>
 #wrapper {
-  background-color: darkslategray;
+  background-color: #888888;
   display: flex;
   max-height: 700px;
   margin: 0 auto;
