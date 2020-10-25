@@ -72,7 +72,7 @@ img {
 }
 
 h1 {
-  margin-top: 30px;
+  
   font-size: 3rem;
 }
 

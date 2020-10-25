@@ -91,6 +91,10 @@ body {
   font-size: 4vw;
   line-height: 1.4;
   background-color: #888888;
+} 
+
+header {
+  margin: 0 0 40px 0;
 }
 /* BTN */
 button {
@@ -102,7 +106,7 @@ button {
 	cursor:pointer;
 	color:#ffffff;
 	font-size:28px;
-	padding:17px 31px;
+	padding: 9px 20px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #ffffff;
     
@@ -143,7 +147,7 @@ article.newsItem h3 {
   list-style-type: none;
 }
 #navigation ul li a {
-  display: block;
+  
   display:inline-block;
 	background-color:transparent;
 	border-radius:5px;
@@ -151,7 +155,7 @@ article.newsItem h3 {
 	cursor:pointer;
 	color:#ffffff;
 	font-size:28px;
-	padding:17px 31px;
+	padding: 9px 20px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #ffffff;
 }
