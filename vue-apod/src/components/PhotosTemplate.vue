@@ -4,11 +4,12 @@
     <h1 v-text="data.title" />
     <div id="wrapper">
       <div class="left">
-        <button v-on:click="seen = !seen">Description</button>
-        <p v-show="seen" v-text="data.explanation" />
+        <button v-on:click="shown = !shown">Description</button>
+        <p v-show="shown" v-text="data.explanation" />
       </div>
       <div class="img-container">
         <img :src="data.url" />
+        <p class="copyright"> &copy; {{ data.copyright }}</p>
       </div>
     </div>
   </div>
@@ -25,7 +26,7 @@ export default {
   data() {
     return {
       data: [],
-      seen: false
+      shown: false
     };
   },
   mounted() {

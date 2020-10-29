@@ -14,6 +14,7 @@
           </li>
         </ul>
       </nav>
+      
     </header>
    <main>
       <article>
@@ -42,13 +43,14 @@
   </div>
 </template>
 <script>
-import ContentData from "../data/content-data"
+import ContentData from "../data/content-data";
 import axios from "axios";
 
 const ApiKey = "7Cw7Ej1pmAPbERm7AlvlirfNCtJiftCI0rEwHyZm";
 
 import FooterTemplate from "./FooterTemplate.vue";
 import PhotosTemplate from "./PhotosTemplate.vue";
+
 
 export default {
   name: "MasterTemplate",
